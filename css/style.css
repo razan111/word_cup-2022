@@ -108,7 +108,7 @@ li{
 }
 
 
-.detail-next{
+.articels{
     display: grid;
     width: 100%;
     grid-gap: 30px;
@@ -146,6 +146,38 @@ h3{
 }
 .thumbnail img{
     width: 100%;
+}
+
+.see-more{
+    font-size: 20px;
+    padding: 12px 30px;
+    background-color: #DD0000;
+    color: white;
+    border-radius: 5px;
+    line-height: 90px;
+    margin-left: 40%;
+    display: none;
+}
+
+
+/* footer section style  */
+.last-sec{
+    background-color: #161616;
+    color: #FFFFFF;
+    margin-top: 130px;
+}
+.footerH2{
+    font-size: 40px;
+    text-align: center;
+    padding-top: 130px;
+    padding-bottom: 50px;
+}
+.fotter{
+    padding: 50px;
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    text-align: center;
+    color: #B9B9B9;
 }
 
 /* =======================================================
@@ -206,11 +238,32 @@ h3{
     .detail li{
         border: 1px solid #E8E8E8;
     }
-    .detail-next{
+    .articels{
         grid-template-columns: repeat(2, 1fr);
     }
 
-  
+  .see-more{
+    display: inline;
+  }
+
+
+
+  /* footer section style  */
+.last-sec{
+    margin-top: 70px;
+}
+.footerH2{
+    font-size: 40px;
+    text-align: center;
+    padding-top: 70px;
+    padding-bottom: 30px;
+}
+.fotter{
+    padding: 50px;
+    grid-template-columns: repeat(4, 1fr);
+    text-align: center;
+}
+
 
 }
 
@@ -222,7 +275,7 @@ h3{
 @media screen and (max-width: 672px) {
     .container{
         width: 100%;
-        padding: 25px;
+        padding: 15px;
     }
 .hero{
     flex-direction: column;
@@ -273,8 +326,25 @@ h3{
 .detail li{
     border: 1px solid #E8E8E8;
 }
-.detail-next{
+.articels{
     grid-template-columns: repeat(1, 1fr);
+}
+
+
+  /* footer section style  */
+  .last-sec{
+    margin-top: 70px;
+}
+.footerH2{
+    font-size: 40px;
+    text-align: center;
+    padding-top: 70px;
+    padding-bottom: 30px;
+}
+.fotter{
+    padding: 0px;
+    grid-template-columns: repeat(1, 1fr);
+    text-align: center;
 }
 
 
