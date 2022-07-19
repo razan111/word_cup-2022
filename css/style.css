@@ -222,6 +222,7 @@ h3{
 @media screen and (max-width: 672px) {
     .container{
         width: 100%;
+        padding: 25px;
     }
 .hero{
     flex-direction: column;
