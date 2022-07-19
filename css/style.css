@@ -15,6 +15,9 @@ a{
     width: 1321px;
     margin: auto;
 }
+li{
+    list-style: none;
+}
 
 /*   =====================================
           header section style  
@@ -66,6 +69,85 @@ a{
 }
 
 
+/* ==================================
+        blog section style  
+   ==================================  */
+
+.details{
+    display: flex;
+    margin-top: 100px;
+}
+
+.detail{
+    width: 312px;
+    height: 312px;
+    background-color: #161616;
+    border-radius: 10px;
+    margin-right: 20px;
+}
+.detail ul{
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    align-items: center;
+}
+.detail li{
+    background-color: #FFFFFF;
+
+    width: 85%;
+    margin-bottom: 20px;
+    text-align: center;
+    padding: 17px 0px;
+    border-radius: 10px;
+    
+}
+.detail a{
+    font-size: 20px;
+    font-weight: 600;
+    color: #161616;
+}
+
+
+.detail-next{
+    display: grid;
+    width: 100%;
+    grid-gap: 30px;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.blog{
+    border-radius: 10px;
+    box-shadow: 1px 1px 11px 3px rgba(0,0,0,0.68);
+-webkit-box-shadow: 1px 1px 11px 3px rgba(0,0,0,0.68);
+-moz-box-shadow: 1px 1px 11px 3px rgba(0,0,0,0.68);
+}
+
+.blog-info{
+    padding: 20px;
+}
+
+.transfer{
+    padding: 4px 17px;
+}
+h3{
+    font-size: 18px;
+    margin: 20px 0;
+}
+
+.blog-icon span{
+    margin-right: 30px;
+}
+#blogs{
+    background-color: #DD0000;
+}
+
+#blogs a{
+    color: #FFFFFF;
+}
+.thumbnail img{
+    width: 100%;
+}
+
 /* =======================================================
              Responsive Design for Tab View
    =======================================================  */
@@ -104,6 +186,32 @@ a{
         margin-left: 40px;
         margin-top: 13px;
     }
+
+
+    /* blog section  */
+    .details{
+        flex-direction: column;
+        margin-top: 30px;
+    }      
+    .detail{
+        width: 90%;
+        background-color: #FFFFFF;  
+        height: 120px;
+    }
+    .detail ul{
+       display: flex;
+        flex-direction: row;
+     
+    }
+    .detail li{
+        border: 1px solid #E8E8E8;
+    }
+    .detail-next{
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+  
+
 }
 
 
@@ -144,5 +252,29 @@ a{
     padding-left: 0px;
     margin-top: 20px;
 }
+
+
+ /* blog section  */
+ .details{
+    flex-direction: column;
+    margin-top: 30px;
+}      
+.detail{
+    width: 90%;
+    background-color: #FFFFFF;  
+    height: 312px;
+}
+.detail ul{
+   display: flex;
+    flex-direction: column;
+ 
+}
+.detail li{
+    border: 1px solid #E8E8E8;
+}
+.detail-next{
+    grid-template-columns: repeat(1, 1fr);
+}
+
 
 }
