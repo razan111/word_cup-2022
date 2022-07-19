@@ -64,3 +64,85 @@ a{
     padding-left: 25px;
     margin-top: 33px;
 }
+
+
+/* =======================================================
+             Responsive Design for Tab View
+   =======================================================  */
+
+@media only screen and (min-width: 673px) and (max-width: 990px){
+    .container{
+        width: 100%;
+        padding: 25px;
+    }
+    /* .hero{
+        
+    } */
+    .hero-tittle{
+        font-size: 25px;
+        padding-left: 30px;
+        margin-top: 30px;
+    }
+    .half-width p{
+        padding-left: 30px;
+        margin-bottom: -2px;
+    }
+    .hero-btn{
+        margin-left: 30px;
+        font-size: 18px;
+        padding: 12px;
+        /* line-height: 60px; */
+    }
+    .fa-angle-right{
+        color: #FFFFFF;
+        font-size: 20px;
+        
+    }
+
+    .half-width img{
+        width: 70%;
+        margin-left: 40px;
+        margin-top: 13px;
+    }
+}
+
+
+/* =======================================================
+             Responsive Design for Mobile View
+   =======================================================  */
+
+@media screen and (max-width: 672px) {
+    .container{
+        width: 100%;
+    }
+.hero{
+    flex-direction: column;
+    margin-top: 50px;
+    margin: 10px;
+}
+.half-width{
+    width: 100%;
+    text-align: center;
+}
+.hero-tittle{
+    font-size: 30px;
+    padding: 10px;
+}
+
+.half-width p{
+    padding-left: 15px;
+}
+.hero-btn{
+    margin: auto;
+    font-size: 20px;
+    padding: 8px 12px;
+}
+
+.half-width img{
+    width: 80%;
+    text-align: center;
+    padding-left: 0px;
+    margin-top: 20px;
+}
+
+}
