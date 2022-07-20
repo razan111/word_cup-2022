@@ -46,6 +46,20 @@ li{
     margin: 20px 0;
     padding-left: 111px;
 }
+
+.tooltip{
+    visibility: hidden;
+    position: absolute;
+}
+.mini-mini{
+    width: 100%;
+    overflow: hidden;
+}
+.short-txt{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
 .hero-btn{
     margin-left: 111px;
     color: #FFFFFF;
@@ -237,6 +251,14 @@ h3{
         padding-left: 30px;
         margin-bottom: -2px;
     }
+    .long-txt{
+        display: none;
+    }
+    
+.tooltip{
+    visibility: visible;
+    position: relative;
+}
     .hero-btn{
         margin-left: 30px;
         font-size: 18px;
@@ -282,6 +304,10 @@ h3{
   .see-more{
     display: inline;
   }
+  .thumbnail-1{
+    width: 100%;
+    justify-content: space-between;
+}
 
 
 
@@ -372,6 +398,11 @@ h3{
     }
     .articels{
         grid-template-columns: repeat(1, 1fr);
+    }
+
+    .thumbnail-1{
+        width: 100%;
+        justify-content: space-between;
     }
 
 
