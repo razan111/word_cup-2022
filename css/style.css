@@ -54,8 +54,11 @@ li{
 .mini-mini{
     width: 100%;
     overflow: hidden;
+    overflow-x: none;
+    
 }
 .short-txt{
+    width: 350px;
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
@@ -370,7 +373,7 @@ h3{
     }
 
     .half-width img{
-        width: 80%;
+        width: 100%;
         text-align: center;
         padding-left: 0px;
         margin-top: 20px;
