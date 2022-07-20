@@ -19,6 +19,23 @@ li{
     list-style: none;
 }
 
+@keyframes sliding {
+    0%{
+        background-color: #566573;
+    }
+    100%{
+        background-color: #839192;
+    }
+
+    
+}
+
+.hero{
+    animation: sliding 4s ease-in-out .5s infinite alternate;
+    animation-play-state: running;
+    position: relative;
+    /* background-color: aqua; */
+}
 /*   =====================================
           header section style  
      =====================================   */
@@ -73,6 +90,13 @@ li{
     line-height: 75px;
     align-items: center;
     
+}
+
+
+
+.hero-btn i{
+    color: #FFFFFF;
+    font-size: 20px;
 }
 .fa-angle-right{
     color: #FFFFFF;
